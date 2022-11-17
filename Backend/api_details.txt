@@ -1,0 +1,3 @@
+http://localhost:5000/foods/all		// Get All Food List
+http://localhost:5000/foods/category      // Get Category List
+http://localhost:5000/foods/category/1	// Get Food of Category 1
