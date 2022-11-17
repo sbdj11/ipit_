@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YumTum.Co</title>
+    <link rel="stylesheet" href="./css/copied.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <!-- <div class="logo"></div> -->
+        <a href="/">
+          <h1>YumTum.Co</h1>
+        </a>
+        <div class="right">
+          <h4 id="name">Order Now</h4>
+          <button class="cart_btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+              />
+            </svg>
+            <span class="cart_no">2</span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- home -->
+    <section id="home">
+      <h1 class="h-primary"> Adelaide's Best Indian Food</h1>
+      <p>
+       
+      </p>
+      <p>Order Now</p>
+      <button class="btn">Order Now</button>
+    </section>
+    <main>
+      <div class="filter_box">
+        <div class="search_container">
+          <input type="text" placeholder="Search.." name="search" />
+          <button type="submit">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="filter_btn">
+          <button class="filter_now" onclick="openclosedropdown()">
+            All
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </button>
+          <div class="extra">
+            <div class="filter_musk h-0" id="filter_musk">
+              <ul class="filter">
+                <li><button>All</button></li>
+                <li>
+                  <button>Starter</button>
+                </li>
+                <li>
+                  <button>Main Course</button>
+                </li>
+                <li>
+                  <button>Desert</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top">
+        <h3 class="foods_heading"> Order Now !</h3>
+      </div>
+
+      <div id="foodContainer" class="foods"></div>
+    </main>
+
+    <footer>
+      <p class="p">Thanks For Visiting our website</p>
+     
+    </footer>
+  </body>
+  <script src="./js/index.js"></script>
+</html>
